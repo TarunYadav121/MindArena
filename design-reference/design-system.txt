@@ -1,0 +1,156 @@
+# MINDARENA — DESIGN SYSTEM
+
+## 1. Brand Identity
+
+Application: MindArena
+Platform: Android
+Framework: Kotlin + Jetpack Compose
+
+Design direction: Minimal editorial design with selective Liquid Glass.
+
+Brand personality: Calm interface, competitive experience.
+
+## 2. Colour Palette
+
+Warm Cream Background: #FAF7F2
+Terracotta Primary: #D97757
+Espresso Primary Text: #302923
+Muted Taupe Secondary Text: #81766E
+Paper White Cards: #FFFFFF
+Sand Borders: #E9E1D8
+Sage Accent: #77816D
+Selected Background: #F4E3DC
+Muted Brick Error: #B85C50
+
+Do not introduce unrelated colours.
+
+## 3. Typography
+
+Display Font: DM Serif Display
+Interface Font: DM Sans
+
+Use DM Serif Display for:
+- Main screen headings.
+- Editorial headings.
+- Featured challenge titles.
+
+Use DM Sans for:
+- Body text.
+- Buttons.
+- Navigation labels.
+- Search fields.
+- Metadata.
+- Statistics.
+
+### Font sizes
+
+Main heading: 32sp
+Screen heading: 28–32sp
+Section heading: 20sp
+Card heading: 18–20sp
+Body text: 14–16sp
+Supporting text: 12–13sp
+Metadata: 12–13sp
+Button labels: 14–15sp
+Statistics: 22–24sp
+
+## 4. Layout and Spacing
+
+Reference viewport: 393 × 852dp
+
+Horizontal screen padding: 20dp
+Spacing system: Multiples of 8dp
+Main card corner radius: 18dp
+Compact card corner radius: 14dp
+Button corner radius: Approximately 14dp
+
+Maintain consistent spacing, alignment and comfortable touch targets.
+
+## 5. Visual Guidelines
+
+- Keep the interface minimal and professional.
+- Use whitespace intentionally.
+- Avoid decorative lines underneath headings.
+- Avoid random dots, blobs and floating shapes.
+- Do not use generic stock photographs.
+- Avoid excessive shadows and gradients.
+- Do not make every section a rounded card.
+- Avoid oversized colourful icon backgrounds.
+- Maintain consistent icon sizes and stroke weights.
+- Never sacrifice readability for visual effects.
+
+## 6. Liquid Glass Styling
+
+Use selective Liquid Glass treatment for:
+- Floating bottom navigation.
+- Top header, where appropriate.
+- Floating menus and overlays.
+
+Glass appearance:
+- Subtle translucency.
+- Background blur.
+- Delicate edge highlights.
+- Soft depth.
+- Readable text and icons.
+
+Avoid:
+- Heavy black shadows.
+- Rainbow reflections.
+- Excessive distortion.
+- Excessive transparency.
+- Neon effects.
+
+Most content cards should use solid cream, white or Espresso surfaces.
+
+## 7. Navigation
+
+Four bottom navigation destinations:
+
+1. Home
+2. Explore
+3. Create
+4. Profile
+
+Selected icon and label: Terracotta.
+Unselected icon and label: Muted Taupe.
+
+Use one shared navigation component throughout the application.
+
+## 8. Home Screen Design
+
+- MindArena brand header.
+- Editorial welcome heading: "Every answer moves you up."
+- Dark Espresso Daily Challenge card.
+- Live in the Arena section.
+- Quick Access actions.
+- Your Progress statistics.
+- Daily streak.
+- Floating Liquid Glass bottom navigation.
+
+## 9. Explore Screen Design
+
+- Global MindArena header.
+- Explore heading and supporting text.
+- Search quizzes, subjects or topics.
+- Horizontally scrollable subject categories.
+- All, Popular and New discovery tabs.
+- Filter controls.
+- Featured Science Challenge.
+- Discover Quizzes list.
+- Floating Liquid Glass bottom navigation.
+
+## 10. Consistency Requirements
+
+Home and Explore must share:
+- Colour palette.
+- Typography.
+- Header styling.
+- Bottom navigation.
+- Button styling.
+- Icon treatment.
+- Spacing rules.
+- Component shapes.
+
+The supplied final Stitch screenshots are the primary visual reference.
+
+Reproduce the designs as closely as possible using native Jetpack Compose.

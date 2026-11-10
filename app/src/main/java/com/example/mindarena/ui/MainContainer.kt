@@ -12,7 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.mindarena.ui.components.LiquidGlassBottomNavigation
 import com.example.mindarena.ui.components.NavigationTab
-// import com.example.mindarena.ui.explore.ExploreScreen
+import com.example.mindarena.ui.explore.ExploreScreen
 import com.example.mindarena.ui.home.HomeScreen
 import com.example.mindarena.ui.theme.WarmCream
 
@@ -35,7 +35,7 @@ fun MainContainer(
                 )
             }
             NavigationTab.EXPLORE -> {
-                // ExploreScreen() -- temporarily commented out while explore folder is pushed from friend's account
+                 ExploreScreen()
                 HomeScreen(
                     onNavigateToExplore = { selectedTab = NavigationTab.EXPLORE }
                 )

@@ -20,7 +20,6 @@ import androidx.compose.material.icons.outlined.Calculate
 import androidx.compose.material.icons.outlined.Code
 import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material.icons.outlined.Language
-import androidx.compose.material.icons.outlined.Science
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -55,7 +54,7 @@ data class QuizItemData(
     val isNew: Boolean = false
 )
 
-val mockQuizzes = listOf(
+val mockQuizzes: List<QuizItemData> = listOf(
     QuizItemData(
         id = "1",
         title = "The World Around Us",

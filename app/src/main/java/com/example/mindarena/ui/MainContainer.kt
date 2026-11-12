@@ -35,10 +35,7 @@ fun MainContainer(
                 )
             }
             NavigationTab.EXPLORE -> {
-                 ExploreScreen()
-                HomeScreen(
-                    onNavigateToExplore = { selectedTab = NavigationTab.EXPLORE }
-                )
+                ExploreScreen()
             }
             NavigationTab.CREATE, NavigationTab.PROFILE -> {
                 // Fallback / placeholder content for Create and Profile destinations

@@ -50,10 +50,10 @@ import com.example.mindarena.ui.theme.WarmCream
 
 @Composable
 fun ExploreScreen(
-    modifier: Modifier = Modifier,
     onNotificationClick: () -> Unit = {},
     onProfileClick: () -> Unit = {},
-    onQuizClick: (QuizItemData) -> Unit = {}
+    onQuizClick: (QuizItemData) -> Unit = {},
+    modifier: Modifier = Modifier
 ) {
     var searchQuery by remember { mutableStateOf("") }
     var selectedSubject by remember { mutableStateOf<String?>(null) }

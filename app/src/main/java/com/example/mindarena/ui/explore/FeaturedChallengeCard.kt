@@ -35,8 +35,8 @@ import com.example.mindarena.ui.theme.Terracotta
 
 @Composable
 fun FeaturedChallengeCard(
-    onExploreQuiz: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    onExploreQuiz: () -> Unit = {}
 ) {
     Box(
         modifier = modifier

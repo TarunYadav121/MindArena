@@ -41,7 +41,7 @@ data class SubjectItem(
     val icon: ImageVector
 )
 
-val mindArenaSubjects = listOf(
+val mindArenaSubjects: List<SubjectItem> = listOf(
     SubjectItem("General Knowledge", Icons.Outlined.Language),
     SubjectItem("Science", Icons.Outlined.Science),
     SubjectItem("Technology", Icons.Outlined.Code),
